@@ -18,7 +18,6 @@ void Stage::drawShape2Stream(const Shape* shape, ostream& stream) const {
         stream<<endl;
     }
 }
-
 void Stage::drawShapeToPng(const Shapes::Shape* shape, std::string filename) const {
     gdImagePtr image = gdImageCreate(width*multX, height*multY);
     int emptyColor = gdImageColorAllocate (image,get<0>(emptyRGB), get<1>(emptyRGB), get<2>(emptyRGB));

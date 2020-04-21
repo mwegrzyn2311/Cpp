@@ -1,0 +1,1 @@
+target_sources(my-string PUBLIC MyString.hpp)

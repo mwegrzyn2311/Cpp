@@ -1,0 +1,1 @@
+target_sources(my-string PRIVATE MyString.cpp)

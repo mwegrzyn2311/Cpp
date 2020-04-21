@@ -1,0 +1,1 @@
+target_sources(my-string-tests PRIVATE main.cpp MyStringTests.cpp)
